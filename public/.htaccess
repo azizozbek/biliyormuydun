@@ -1,0 +1,18 @@
+# Apache (shared hosting). Copied to public/ on every build.
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+ErrorDocument 404 /404.html
+AddType application/manifest+json .webmanifest
+
+<IfModule mod_headers.c>
+  # The service worker must always be fetched fresh, or visitors never get updates.
+  <Files "sw.js">
+    Header set Cache-Control "no-cache"
+  </Files>
+  # Fingerprinted files never change: cache for a year.
+  <FilesMatch "\.[0-9a-f]{64}\.(css|js|json)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+</IfModule>

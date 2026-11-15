@@ -1,4 +1,4 @@
-baseURL = "https://biliyormuydun.example/"
+baseURL = "https://example.com/"  # overridden by HUGO_BASEURL in .env (see .env.example)
 locale = "tr-TR"
 defaultContentLanguage = "tr"
 title = "Biliyor muydun?"

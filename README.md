@@ -43,7 +43,8 @@ Site [Hugo](https://gohugo.io/) ile üretilen statik bir PWA. Sunucu, veritaban�
 ## Gereksinimler
 
 - Hugo **0.146 veya üzeri** (extended sürüm gerekmiyor). macOS: `brew install hugo`
-- Node.js 20 veya üzeri. Yalnızca kontrol scriptleri için gerekiyor, bağımlılık yok.
+- Node.js 20 veya üzeri. Yalnızca kendi bilgisayarındaki kontrol scriptleri için gerekiyor, bağımlılık yok.
+- **Sunucuda hiçbir şey gerekmez:** Node, npm, Hugo, PHP ya da veritabanı yok. Site bilgisayarında build edilir, sunucuya yalnızca hazır statik dosyalar yüklenir.
 
 ## Çalıştırma
 
@@ -72,16 +73,21 @@ Bilgi eklerken `data/facts.json`'a yeni bir nesne ekle, `id` küçük harf ve ti
 
 1. **Alan adı:** Siteyi yayınlayacağın alan adını ya da klasörü hosting panelinde hazırla ve sitenin dosyalarının gideceği klasörü (document root) not et.
 2. **HTTPS:** Alan adı için SSL'i aç (çoğu panelde AutoSSL ya da Let's Encrypt). Service worker, yani çevrimdışı çalışma, yalnızca HTTPS'te çalışır.
-3. **baseURL:** `hugo.toml` içindeki `baseURL` değerini kendi adresin yap (örneğin `https://example.com/`). Canonical, og etiketleri ve sitemap bu değeri kullanır.
-4. **Build:**
+3. **Site adresi:** `.env.example` dosyasını `.env` olarak kopyala ve `HUGO_BASEURL` değerini kendi adresin yap (örneğin `https://example.com/`). `npm run build` bu değeri okur ve `hugo.toml` içindeki `baseURL`'ün yerine kullanır. Canonical, og etiketleri ve sitemap bu değeri kullanır. `.env` git'e eklenmez. Node olmadan build alıyorsan: `HUGO_BASEURL=https://example.com/ hugo --minify`.
+4. **Build (kendi bilgisayarında):**
    ```bash
-   npm run build
+   npm run build        # kontrol + hugo --minify
    ```
+   Node kurulu değilse yalnızca `hugo --minify` de aynı `public/` klasörünü üretir, ama kontrol çalışmaz.
 5. **Yükleme:** `public/` klasörünün *içindekileri* document root'a yükle: panelin dosya yöneticisiyle, FTP/SFTP ile ya da SSH varsa rsync ile. `.htaccess` gizli bir dosya, FTP programında gizli dosyaları göstermeyi aç.
    ```bash
    rsync -avz --delete public/ kullanici@sunucu:~/public_html/
    ```
 6. **Kontrol:** Siteyi aç. DevTools → Application'da service worker aktif görünmeli ve manifest hatasız yüklenmeli. Sonra çevrimdışı moda geçip sayfayı yenile, site açılmalı.
+
+**Git ile yayın:** `public/` klasörü build sonucuyla birlikte repoya eklenir, çünkü sunucuda build alınmıyor. Bilgisayarında `npm run build` çalıştır, `public/` dahil commit'le ve push'la. Sunucuda repoyu çekip (`git pull`) document root'u `public/` klasörüne yönlendir ya da `public/` içeriğini document root'a kopyala. Build almadan commit'lersen sunucudaki site eski kalır.
+
+> **İpucu:** Sunucunda Node ve Hugo kuruluysa `public/` satırını `.gitignore`'a ekle ve siteyi sunucuda build et: `git pull && npm run build`. Böylece build sonucu repoya girmez. `.env` dosyasını sunucuda da oluşturmayı unutma.
 
 Her güncellemede 4. ve 5. adımları tekrarla. Ziyaretçiler yeni sürümü bir sonraki açılışta otomatik alır.
 

@@ -6,8 +6,8 @@
     "test": "node --test scripts/lib.test.mjs",
     "icons": "node scripts/icons.mjs",
     "dev": "hugo server",
-    "build": "node scripts/check.mjs && hugo --minify",
-    "preview": "hugo --minify && python3 -m http.server 8080 -d public"
+    "build": "node scripts/check.mjs && [ -f .env ] && set -a && . ./.env && set +a; hugo --minify",
+    "preview": "[ -f .env ] && set -a && . ./.env && set +a; hugo --minify && python3 -m http.server 8080 -d public"
   },
   "type": "module"
 }
