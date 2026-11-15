@@ -100,6 +100,8 @@ Her güncellemede 4. ve 5. adımları tekrarla. Ziyaretçiler yeni sürümü bir
 
 Hosting nginx kullanıyorsa bu kuralların karşılığını panelden ayarla.
 
+İkonlar `/img/` altındadır. `/icons/` kullanma: birçok paylaşımlı hostta Apache bu yolu kendi ikonlarına ayırır ve oradaki dosyalar 404 verir.
+
 ## PWA olarak yükleme
 
 - **Android / masaüstü Chrome ve Edge:** sol alttaki "Ana ekrana ekle" butonu (ya da Ayarlar'daki aynı buton) tarayıcının yükleme penceresini açar. Kullanıcı reddederse buton, tarayıcı yeniden izin verene kadar gizlenir.
@@ -107,4 +109,4 @@ Hosting nginx kullanıyorsa bu kuralların karşılığını panelden ayarla.
 - Uygulama zaten yüklüyse ya da tarayıcı yüklemeyi desteklemiyorsa (örneğin Firefox) buton görünmez.
 - Yükleme penceresi yalnızca HTTPS'te yayınlanan sitede çıkar. Yayından sonra bir Android telefonda ve bir iPhone'da dene.
 
-İkonları değiştirmek için `scripts/icons.mjs` dosyasını düzenle ve `npm run icons` çalıştır. `static/icons/icon.svg` dosyası ayrıca güncellenmeli.
+İkonları değiştirmek için `scripts/icons.mjs` dosyasını düzenle ve `npm run icons` çalıştır. `static/img/icon.svg` dosyası ayrıca güncellenmeli.

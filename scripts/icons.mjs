@@ -1,5 +1,5 @@
 // Draws the PWA icons (flat blue, white heart in the centre) as PNGs with no dependencies.
-// Run: npm run icons  →  static/icons/icon-192.png, icon-512.png, maskable-512.png
+// Run: npm run icons  →  static/img/icon-192.png, icon-512.png, maskable-512.png
 import { writeFileSync } from "node:fs";
 import { deflateSync } from "node:zlib";
 
@@ -55,9 +55,9 @@ function png(size, pad) {
   ]);
 }
 
-const out = (f) => new URL(`../static/icons/${f}`, import.meta.url);
+const out = (f) => new URL(`../static/img/${f}`, import.meta.url);
 writeFileSync(out("icon-192.png"), png(192, 0));
 writeFileSync(out("icon-512.png"), png(512, 0));
 writeFileSync(out("maskable-512.png"), png(512, 0.12)); // keeps the heart inside the 80% safe zone
 writeFileSync(out("apple-touch-icon.png"), png(180, 0));
-console.log("icons written to static/icons/");
+console.log("icons written to static/img/");

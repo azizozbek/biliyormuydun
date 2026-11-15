@@ -238,7 +238,11 @@ function initDeck(allFacts) {
       dx = e.clientX - sx;
       dy = e.clientY - sy;
       if (!axis && Math.hypot(dx, dy) > 8) axis = Math.abs(dx) > Math.abs(dy) ? "x" : "y";
-      if (axis === "x") card.style.transform = `translate(${dx}px, ${dy * 0.15}px) rotate(${dx / 18}deg)`;
+      if (axis === "x") {
+        // Nothing before the first card: pulling left meets resistance instead of following the finger.
+        const x = i === 0 && dx < 0 ? dx / 5 : dx;
+        card.style.transform = `translate(${x}px, ${dy * 0.15}px) rotate(${x / 18}deg)`;
+      }
       else if (axis === "y") card.style.transform = `translateY(${Math.min(0, dy) / 3}px)`;
     };
     card.onpointerup = card.onpointercancel = (e) => {
@@ -253,6 +257,7 @@ function initDeck(allFacts) {
           card.style.transform = "";
           return prev();
         }
+        toast("Bu ilk bilgi · sonraki için sağa kaydır");
       }
       card.style.transform = "";
       if (axis === "y" && dy < -60) return openSheet(false);
