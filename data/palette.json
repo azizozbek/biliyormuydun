@@ -1,0 +1,18 @@
+[
+  { "light": { "g": ["#c9d6ff", "#e2e2ff"], "fg": "#1a1f4d", "panel": "#2b3fd9", "panelFg": "#ffffff" },
+    "dark":  { "g": ["#1b2466", "#2b3fd9"], "fg": "#ffffff", "panel": "#0f1330", "panelFg": "#e6e9ff" } },
+  { "light": { "g": ["#fde7a9", "#f9c96b"], "fg": "#3a2a00", "panel": "#7a4e00", "panelFg": "#fff5dc" },
+    "dark":  { "g": ["#4a3300", "#7a5200"], "fg": "#fff1c9", "panel": "#1e1500", "panelFg": "#fbe7b0" } },
+  { "light": { "g": ["#c8f0dc", "#9fdcc0"], "fg": "#0d3324", "panel": "#1f5c46", "panelFg": "#f0fff8" },
+    "dark":  { "g": ["#0d2e22", "#1f5c46"], "fg": "#eafff5", "panel": "#07160f", "panelFg": "#d5f5e6" } },
+  { "light": { "g": ["#ead7f5", "#d3b5ea"], "fg": "#3a1650", "panel": "#5b2a6e", "panelFg": "#fff4ff" },
+    "dark":  { "g": ["#2a1236", "#5b2a6e"], "fg": "#fbefff", "panel": "#140819", "panelFg": "#f0dcf8" } },
+  { "light": { "g": ["#d4eef8", "#a7d9ec"], "fg": "#08222c", "panel": "#0e4a5e", "panelFg": "#e8f8ff" },
+    "dark":  { "g": ["#0b2a36", "#145a72"], "fg": "#e8f8ff", "panel": "#051318", "panelFg": "#cdeefa" } },
+  { "light": { "g": ["#ffd9d1", "#ffb3a6"], "fg": "#4a0f0a", "panel": "#a8261e", "panelFg": "#ffffff" },
+    "dark":  { "g": ["#4a110d", "#8f251d"], "fg": "#fff0ed", "panel": "#1c0605", "panelFg": "#ffd9d1" } },
+  { "light": { "g": ["#fde0ea", "#f4a6c0"], "fg": "#2c0c18", "panel": "#8a1f48", "panelFg": "#fff0f5" },
+    "dark":  { "g": ["#3b0f20", "#7a1c40"], "fg": "#fff0f5", "panel": "#18060d", "panelFg": "#fbd5e2" } },
+  { "light": { "g": ["#cdf2ef", "#93dcd6"], "fg": "#06312f", "panel": "#0e6b73", "panelFg": "#ffffff" },
+    "dark":  { "g": ["#06302f", "#0e6b73"], "fg": "#eafffd", "panel": "#031615", "panelFg": "#c9f3f0" } }
+]

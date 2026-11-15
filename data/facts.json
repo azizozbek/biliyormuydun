@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "bal-bozulmaz",
+    "category": "Doğa",
+    "fact": "Bal, pratikte hiç bozulmaz.",
+    "detail": [
+      "Balın nemi çok düşük, asiditesi yüksek. Bu ortamda bakteriler ve mayalar çoğalamaz.",
+      "Arkeologlar binlerce yıllık eski mezarlarda bal kapları bulmuştur. Bal zamanla kristalleşebilir ama hafifçe ısıtınca yeniden akışkan hâle gelir."
+    ]
+  },
+  {
+    "id": "ahtapot-uc-kalp",
+    "category": "Hayvanlar",
+    "fact": "Ahtapotun üç kalbi ve mavi kanı var.",
+    "detail": [
+      "İki kalp kanı solungaçlara pompalar, üçüncüsü vücudun geri kalanına.",
+      "Kanın mavi olmasının sebebi bakır içeren hemosiyanin molekülü. Soğuk ve oksijeni az sularda oksijen taşımak için işe yarar. Ahtapot yüzerken vücut kalbi durur, bu yüzden yorulur ve genelde sürünmeyi tercih eder."
+    ]
+  },
+  {
+    "id": "venus-gunu",
+    "category": "Uzay",
+    "fact": "Venüs'te bir gün, bir yıldan daha uzun sürer.",
+    "detail": [
+      "Venüs kendi ekseni etrafında bir tam tur atmak için yaklaşık 243 Dünya günü harcar. Güneş etrafındaki turu ise yaklaşık 225 gün sürer.",
+      "Üstelik çoğu gezegenin tersi yönde döner. Venüs'te Güneş batıdan doğar."
+    ],
+    "source": "NASA"
+  },
+  {
+    "id": "gobeklitepe-stonehenge",
+    "category": "Tarih",
+    "fact": "Göbeklitepe, Stonehenge'ten 6.000 yıldan daha eski.",
+    "detail": [
+      "Şanlıurfa'daki Göbeklitepe yaklaşık 11.500 yıl önce, tarım ve yerleşik hayat henüz yokken inşa edildi. Stonehenge'in ilk evresi ise yaklaşık 5.000 yıl önceye tarihleniyor.",
+      "Bu keşif, anıtsal yapıların ancak yerleşik toplumlar tarafından yapılabileceği düşüncesini sarstı. 2018'de UNESCO Dünya Mirası Listesi'ne girdi."
+    ],
+    "source": "UNESCO"
+  },
+  {
+    "id": "kleopatra-iphone",
+    "category": "Tarih",
+    "fact": "Kleopatra, Büyük Piramit'e değil iPhone'a daha yakın yaşadı.",
+    "detail": [
+      "Gize'deki Büyük Piramit yaklaşık M.Ö. 2560 yılında yapıldı. Kleopatra ise M.Ö. 69 ile 30 arasında yaşadı.",
+      "Yani Kleopatra'nın yaşadığı dönem, piramitten yaklaşık 2.500 yıl sonra. İlk iPhone'dan ise yaklaşık 2.000 yıl önce."
+    ]
+  },
+  {
+    "id": "oxford-aztek",
+    "category": "Tarih",
+    "fact": "Oxford Üniversitesi, Aztek İmparatorluğu'ndan daha eski.",
+    "detail": [
+      "Oxford'da derslerin 1096 yılından beri verildiği kabul edilir.",
+      "Aztek şehri Tenochtitlan ise 1325 civarında kuruldu. Yani üniversite, o şehir ortada yokken zaten öğrenci yetiştiriyordu."
+    ],
+    "source": "University of Oxford"
+  },
+  {
+    "id": "eyfel-uzar",
+    "category": "Bilim",
+    "fact": "Eyfel Kulesi yazın birkaç santim uzar.",
+    "detail": [
+      "Demir yapılar ısınınca genleşir. Sıcak günlerde kulenin boyu yaklaşık 15 santim artabilir.",
+      "Güneşe bakan tarafı daha çok ısındığı için tepesi gün içinde birkaç santim güneşten uzağa doğru eğilebilir."
+    ],
+    "source": "La tour Eiffel (resmî site)"
+  },
+  {
+    "id": "kedi-tatli",
+    "category": "Hayvanlar",
+    "fact": "Kediler tatlı tadını alamaz.",
+    "detail": [
+      "Tatlıyı algılayan reseptörün genlerinden biri kedilerde çalışmaz.",
+      "Bunun sebebi büyük olasılıkla evrimsel. Kediler tamamen et yiyen hayvanlar ve beslenmelerinde şekerin yeri yok."
+    ]
+  },
+  {
+    "id": "wombat-kup",
+    "category": "Hayvanlar",
+    "fact": "Wombat küp şeklinde kaka yapar.",
+    "detail": [
+      "Bağırsağın son bölümünde dokunun esnekliği farklı yerlerde farklıdır. Bu da dışkının küp biçiminde şekillenmesini sağlar.",
+      "Küpler yuvarlanıp gitmez. Wombat'lar bunları kaya ve kütüklerin üstüne bırakarak bölgelerini işaretler."
+    ]
+  },
+  {
+    "id": "zurafa-omur",
+    "category": "Hayvanlar",
+    "fact": "Zürafanın boynunda da 7 omur var, tıpkı sizde olduğu gibi.",
+    "detail": [
+      "Memelilerin büyük çoğunluğunda boyun omuru sayısı yedidir. Fare de, fil de, zürafa da.",
+      "Fark, omurların boyunda. Zürafanın her bir boyun omuru insanınkinden çok daha uzundur."
+    ]
+  },
+  {
+    "id": "yildirim-gunes",
+    "category": "Doğa",
+    "fact": "Yıldırım, Güneş'in yüzeyinden daha sıcaktır.",
+    "detail": [
+      "Yıldırımın etrafındaki havanın sıcaklığı yaklaşık 30.000 °C'ye ulaşır. Güneş'in yüzeyi ise yaklaşık 5.500 °C.",
+      "Gök gürültüsü, bu ani ısınmayla havanın bir anda genleşip şok dalgası oluşturmasından kaynaklanır."
+    ],
+    "source": "NOAA"
+  },
+  {
+    "id": "en-kisa-savas",
+    "category": "Tarih",
+    "fact": "Tarihin en kısa savaşı yaklaşık 40 dakika sürdü.",
+    "detail": [
+      "27 Ağustos 1896'da İngiltere ile Zanzibar arasında yaşandı. İngiliz savaş gemileri sarayı bombalayınca Zanzibar'ın kendini sultan ilan eden yöneticisi kaçtı.",
+      "Sürenin kaç dakika olduğu kaynaklara göre 38 ile 45 arasında değişir."
+    ]
+  },
+  {
+    "id": "mide-yenilenir",
+    "category": "Vücut",
+    "fact": "Mide astarınız birkaç günde kendini yeniler.",
+    "detail": [
+      "Mide asidi çok güçlüdür ve mide duvarını sürekli aşındırmaya çalışır. Mide, bunu mukus tabakası ve hızla yenilenen hücrelerle telafi eder.",
+      "Yüzeydeki hücreler yaklaşık birkaç gün içinde değiştirilir."
+    ]
+  },
+  {
+    "id": "hamambocegi-bassiz",
+    "category": "Hayvanlar",
+    "fact": "Hamamböceği başı olmadan günlerce yaşayabilir.",
+    "detail": [
+      "Hamamböceklerinin kan dolaşımı açıktır ve nefes almak için vücutlarının yanlarındaki küçük deliklerden yararlanırlar. Bunlar için beyin şart değildir.",
+      "Sonunda ölür, ama kafasının kopmasından değil, su içemediği için. Bu yaklaşık bir hafta sürebilir."
+    ]
+  },
+  {
+    "id": "okyanus-tabani",
+    "category": "Dünya",
+    "fact": "Okyanus tabanının büyük kısmı hâlâ ayrıntılı haritalanmadı.",
+    "detail": [
+      "Mars'ın ve Ay'ın yüzeyi, derin okyanus tabanından çok daha ayrıntılı haritalandı.",
+      "Seabed 2030 gibi uluslararası projeler, tüm okyanus tabanını yüksek çözünürlükle haritalamayı hedefliyor."
+    ],
+    "source": "Seabed 2030"
+  },
+
+  {
+    "id": "gunes-isigi-8-dakika",
+    "category": "Uzay",
+    "fact": "Gördüğünüz güneş ışığı yaklaşık 8 dakika önce yola çıktı.",
+    "detail": [
+      "Güneş, Dünya'dan ortalama yaklaşık 150 milyon kilometre uzakta. Işık bu yolu yaklaşık 8 dakika 20 saniyede alır.",
+      "Yani Güneş'e baktığınızda onun şu anki hâlini değil, birkaç dakika önceki hâlini görürsünüz."
+    ],
+    "source": "NASA"
+  },
+  {
+    "id": "ay-uzaklasiyor",
+    "category": "Uzay",
+    "fact": "Ay, her yıl Dünya'dan yaklaşık 3,8 santim uzaklaşıyor.",
+    "detail": [
+      "Bu ölçüm, Apollo astronotlarının Ay'a bıraktığı aynalara lazer gönderilerek yapılıyor. Işığın gidip dönme süresi mesafeyi milimetre hassasiyetinde veriyor.",
+      "Uzaklaşmanın sebebi gelgitler. Dünya'nın dönüşü yavaşladıkça bu enerjinin bir kısmı Ay'ın yörüngesine aktarılıyor."
+    ],
+    "source": "NASA"
+  },
+  {
+    "id": "saturn-yogunluk",
+    "category": "Uzay",
+    "fact": "Satürn'ün ortalama yoğunluğu sudan düşüktür.",
+    "detail": [
+      "Satürn çoğunlukla hidrojen ve helyumdan oluşur. Ortalama yoğunluğu suyun yoğunluğunun yaklaşık yüzde 70'i kadardır.",
+      "Bu yüzden sık sık \"yeterince büyük bir küvet olsa suda yüzerdi\" denir. Tabii böyle bir küvet yok, ama karşılaştırma doğru."
+    ],
+    "source": "NASA"
+  },
+  {
+    "id": "uzayda-ses-yok",
+    "category": "Uzay",
+    "fact": "Uzayda ses yayılmaz.",
+    "detail": [
+      "Ses, havadaki ya da sudaki moleküllerin titreşmesiyle yayılan bir dalgadır. Uzay ise neredeyse tamamen boştur, titreşecek molekül yok denecek kadar azdır.",
+      "Astronotlar bu yüzden uzay yürüyüşünde telsizle konuşur. Filmlerdeki patlama sesleri tamamen kurgudur."
+    ]
+  },
+  {
+    "id": "olympus-mons",
+    "category": "Uzay",
+    "fact": "Mars'taki Olympus Mons, Everest'in yaklaşık iki buçuk katı yüksekliğinde.",
+    "detail": [
+      "Olympus Mons, Güneş Sistemi'nin bilinen en büyük volkanlarından biri. Yüksekliği yaklaşık 22 kilometre.",
+      "Taban çapı yaklaşık 600 kilometre. Eğimi o kadar yumuşak ki tepesinde dursanız zirvede olduğunuzu anlamazdınız."
+    ],
+    "source": "NASA"
+  },
+  {
+    "id": "buyuk-kirmizi-leke",
+    "category": "Uzay",
+    "fact": "Jüpiter'deki Büyük Kırmızı Leke, Dünya'dan büyük bir fırtınadır.",
+    "detail": [
+      "Bu dev kasırga en az 150 yılı aşkın bir süredir gözleniyor ve hâlâ sürüyor.",
+      "Son yıllarda küçüldüğü ölçülüyor, ama genişliği hâlâ Dünya'nın çapından fazla."
+    ],
+    "source": "NASA"
+  },
+  {
+    "id": "uzay-istasyonu-90-dakika",
+    "category": "Uzay",
+    "fact": "Uluslararası Uzay İstasyonu Dünya'nın çevresini yaklaşık 90 dakikada dolaşır.",
+    "detail": [
+      "İstasyon yaklaşık 400 kilometre yükseklikte, saatte yaklaşık 28.000 kilometre hızla ilerliyor.",
+      "Bu yüzden içindeki astronotlar bir günde yaklaşık 16 kez gün doğumu ve gün batımı görür."
+    ],
+    "source": "NASA"
+  },
+  {
+    "id": "gunes-kutle",
+    "category": "Uzay",
+    "fact": "Güneş, Güneş Sistemi'ndeki toplam kütlenin yaklaşık yüzde 99,8'ini oluşturur.",
+    "detail": [
+      "Geri kalan küçük payın büyük bölümü de Jüpiter'e ait.",
+      "Dünya dahil diğer tüm gezegenler, aylar, asteroitler ve kuyruklu yıldızlar toplamda çok küçük bir dilime sığar."
+    ],
+    "source": "NASA"
+  },
+
+  {
+    "id": "kutup-ayisi-deri",
+    "category": "Hayvanlar",
+    "fact": "Kutup ayısının derisi siyahtır.",
+    "detail": [
+      "Beyaz görünmesinin sebebi tüyleri. Tüyler aslında renksiz ve içi boşluklu, ışığı saçtıkları için beyaz görünüyorlar.",
+      "Siyah deri, güneş ışığından gelen ısıyı emmeye yardımcı olur."
+    ]
+  },
+  {
+    "id": "flamingo-pembe",
+    "category": "Hayvanlar",
+    "fact": "Flamingolar pembe doğmaz, pembeliklerini yediklerinden alırlar.",
+    "detail": [
+      "Yavru flamingoların tüyleri gri ve beyazdır.",
+      "Yedikleri alg ve küçük kabuklularda karotenoid adı verilen boyalar vardır. Bu boyalar zamanla tüylerde birikir ve kuşa pembe rengini verir."
+    ]
+  },
+  {
+    "id": "ari-dansi",
+    "category": "Hayvanlar",
+    "fact": "Bal arıları çiçeklerin yerini dans ederek tarif eder.",
+    "detail": [
+      "Sallanma dansı denen bu harekette dansın yönü, yiyeceğin Güneş'e göre yönünü gösterir. Dansın süresi ise mesafeyi anlatır.",
+      "Bu dili çözen Karl von Frisch, 1973'te Nobel Fizyoloji veya Tıp Ödülü'nü paylaştı."
+    ],
+    "source": "Nobel Prize"
+  },
+  {
+    "id": "yunus-uyku",
+    "category": "Hayvanlar",
+    "fact": "Yunuslar uyurken beyinlerinin yalnızca yarısını uyutur.",
+    "detail": [
+      "Yunuslar nefes almak için bilinçli olarak yüzeye çıkmak zorunda. Bu yüzden beynin bir yarısı dinlenirken öbür yarısı uyanık kalır.",
+      "Bu sırada uyuyan yarının karşı tarafındaki göz genelde kapalı, diğeri açıktır."
+    ]
+  },
+  {
+    "id": "koala-parmak-izi",
+    "category": "Hayvanlar",
+    "fact": "Koalaların parmak izleri insanınkine çok benzer.",
+    "detail": [
+      "Koala parmak izleri mikroskop altında bile insan parmak izinden ayırt etmek zor olacak kadar benzer.",
+      "Koalalar ile insanlar yakın akraba değil. Bu benzerlik, dal kavrama gibi benzer ihtiyaçlardan ayrı ayrı gelişmiş olabilir."
+    ]
+  },
+
+  {
+    "id": "tunel-metro",
+    "category": "Tarih",
+    "fact": "İstanbul'daki Tünel, dünyanın en eski yeraltı raylı sistemlerinden biridir.",
+    "detail": [
+      "Karaköy ile Beyoğlu arasında çalışan Tünel 1875'te hizmete girdi. Londra metrosundan sonra dünyanın ikinci en eski yeraltı raylı ulaşım hattı olarak bilinir.",
+      "Yaklaşık 570 metrelik hattı ile aynı zamanda dünyanın en kısa metro hatlarından biri."
+    ],
+    "source": "Metro İstanbul"
+  },
+  {
+    "id": "ayasofya-bin-yil",
+    "category": "Tarih",
+    "fact": "Ayasofya, yaklaşık bin yıl boyunca dünyanın en büyük katedraliydi.",
+    "detail": [
+      "Bugünkü yapı 537 yılında tamamlandı. Kubbesi, döneminin mühendislik açısından en cesur işlerinden biriydi.",
+      "Bu unvanı, 16. yüzyılın başında tamamlanan Sevilla Katedrali'ne kaptırdı."
+    ],
+    "source": "UNESCO"
+  },
+  {
+    "id": "napolyon-boyu",
+    "category": "Tarih",
+    "fact": "Napolyon aslında kısa boylu değildi.",
+    "detail": [
+      "Boyunun yaklaşık 1,69 metre olduğu tahmin ediliyor. Bu, döneminin Fransız erkekleri için ortalama ya da biraz üstü.",
+      "Kısa sanılmasının bir nedeni Fransız ve İngiliz inç birimlerinin karıştırılması. İngiliz karikatüristler de onu bilerek küçük çizmeyi severdi."
+    ]
+  },
+  {
+    "id": "viking-boynuz",
+    "category": "Tarih",
+    "fact": "Vikinglerin boynuzlu miğfer taktığına dair bir kanıt yok.",
+    "detail": [
+      "Bugüne kadar bulunan Viking miğferlerinde boynuz yok. Boynuz, savaşta pratik de olmazdı.",
+      "Bu imaj büyük ölçüde 19. yüzyılda, özellikle Wagner operaları için hazırlanan kostümlerle yaygınlaştı."
+    ]
+  },
+  {
+    "id": "kagit-para-cin",
+    "category": "Tarih",
+    "fact": "Kâğıt parayı ilk kullananlar Çinliler oldu.",
+    "detail": [
+      "Çin'de kâğıt para 11. yüzyılda, Song Hanedanı döneminde resmî olarak basılmaya başladı.",
+      "Avrupa'da kâğıt paranın yaygınlaşması ancak yüzyıllar sonra, 17. yüzyılda oldu."
+    ]
+  },
+
+  {
+    "id": "su-4-derece",
+    "category": "Bilim",
+    "fact": "Su en yoğun hâline yaklaşık 4 °C'de ulaşır.",
+    "detail": [
+      "Çoğu madde soğudukça yoğunlaşır. Su ise 4 °C'nin altında yeniden genleşmeye başlar ve buz, sudan hafiftir.",
+      "Bu yüzden göller yüzeyden donar. Buz bir örtü gibi kalır, altındaki su sıvı kalır ve canlılar kışı orada geçirebilir."
+    ]
+  },
+  {
+    "id": "muz-radyoaktif",
+    "category": "Bilim",
+    "fact": "Muz çok az da olsa radyoaktiftir.",
+    "detail": [
+      "Muz bol potasyum içerir. Doğadaki potasyumun çok küçük bir kısmı radyoaktif potasyum-40'tır.",
+      "Bu miktar zararsızdır. Vücudunuz zaten fazla potasyumu düzenli olarak atar ve kendi içinde de potasyum-40 taşır."
+    ]
+  },
+  {
+    "id": "isik-yedi-tur",
+    "category": "Bilim",
+    "fact": "Işık bir saniyede Dünya'nın çevresini yaklaşık 7,5 kez dolaşabilir.",
+    "detail": [
+      "Işığın boşluktaki hızı saniyede yaklaşık 300.000 kilometre. Dünya'nın Ekvator çevresi ise yaklaşık 40.000 kilometre.",
+      "Bu hız evrenin hız sınırıdır. Hiçbir madde ışıktan hızlı gidemez."
+    ]
+  },
+  {
+    "id": "elmas-grafit",
+    "category": "Bilim",
+    "fact": "Elmas ve kurşun kalem ucu aynı elementten yapılmıştır.",
+    "detail": [
+      "İkisi de saf karbondur. Farkları, karbon atomlarının birbirine nasıl bağlandığında.",
+      "Elmasta atomlar sıkı bir üç boyutlu ağ oluşturur. Kalem ucundaki grafitte ise kolayca kayan katmanlar hâlinde dizilir, bu yüzden kâğıda iz bırakır."
+    ]
+  },
+  {
+    "id": "cam-akmaz",
+    "category": "Bilim",
+    "fact": "Eski pencere camları zamanla aşağı akmadı.",
+    "detail": [
+      "Eski kilise camlarının alt kısmının daha kalın olduğu doğru. Ama bunun sebebi akma değil, eski cam üretim yöntemlerinin düzgün kalınlıkta cam çıkaramaması.",
+      "Ustalar camın kalın tarafını genelde alta yerleştiriyordu. Oda sıcaklığında camın akması, insan ömrüyle ölçülemeyecek kadar yavaştır."
+    ]
+  },
+  {
+    "id": "helyum-gunes",
+    "category": "Bilim",
+    "fact": "Helyum, Dünya'da bulunmadan önce Güneş'te keşfedildi.",
+    "detail": [
+      "1868'deki bir güneş tutulması sırasında bilim insanları Güneş ışığının tayfında bilinmeyen sarı bir çizgi gördü.",
+      "Element, adını Yunanca güneş anlamına gelen \"helios\" kelimesinden aldı. Dünya'da ancak 1895'te bulundu."
+    ]
+  },
+  {
+    "id": "everest-kaynama",
+    "category": "Bilim",
+    "fact": "Everest'in zirvesinde su yaklaşık 70 °C'de kaynar.",
+    "detail": [
+      "Suyun kaynama noktası hava basıncına bağlıdır. Yükseldikçe basınç düşer, su da daha düşük sıcaklıkta kaynar.",
+      "Bu yüzden yüksek dağlarda makarna ya da yumurta pişirmek çok daha uzun sürer."
+    ]
+  },
+
+  {
+    "id": "en-kucuk-kemik",
+    "category": "Vücut",
+    "fact": "Vücudunuzdaki en küçük kemik kulağınızın içinde.",
+    "detail": [
+      "Orta kulaktaki üzengi kemiği yalnızca yaklaşık 3 milimetre uzunluğunda.",
+      "Örs ve çekiç kemikleriyle birlikte ses titreşimlerini kulak zarından iç kulağa taşır."
+    ]
+  },
+  {
+    "id": "bebek-kemik",
+    "category": "Vücut",
+    "fact": "Bebekler, yetişkinlerden daha fazla kemikle doğar.",
+    "detail": [
+      "Yeni doğan bir bebekte yaklaşık 300 kemik ya da kemikleşecek kıkırdak parçası bulunur.",
+      "Büyüdükçe bunların bir kısmı birleşir, örneğin kafatası kemikleri. Yetişkin bir insanın iskeletinde genellikle 206 kemik vardır."
+    ]
+  },
+  {
+    "id": "sabah-uzun",
+    "category": "Vücut",
+    "fact": "Sabahları akşama göre yaklaşık 1 santim daha uzunsunuz.",
+    "detail": [
+      "Gün boyunca ayakta durup yürürken omurlar arasındaki diskler yükün altında biraz sıkışır.",
+      "Gece yatarken bu diskler yeniden su toplayıp eski hâline döner, böylece boyunuz geri gelir."
+    ]
+  },
+  {
+    "id": "ikiz-parmak-izi",
+    "category": "Vücut",
+    "fact": "Tek yumurta ikizlerinin bile parmak izleri farklıdır.",
+    "detail": [
+      "Tek yumurta ikizlerinin genleri neredeyse aynıdır, ama parmak izi yalnızca genlerle belirlenmez.",
+      "Parmak izleri anne karnında oluşurken bebeğin konumu, dokunduğu yüzeyler ve büyüme hızı gibi küçük farklar desenleri değiştirir."
+    ]
+  },
+  {
+    "id": "kalp-yuz-bin",
+    "category": "Vücut",
+    "fact": "Kalbiniz günde yaklaşık 100.000 kez atar.",
+    "detail": [
+      "Dinlenirken yetişkin bir kalp dakikada ortalama 60 ile 100 arası atar.",
+      "Ortalama bir insan ömrü boyunca bu sayı 2,5 milyarı aşabilir."
+    ]
+  },
+  {
+    "id": "dis-minesi",
+    "category": "Vücut",
+    "fact": "Vücudunuzdaki en sert madde diş minesidir.",
+    "detail": [
+      "Diş minesi kemikten bile serttir ve büyük bölümü mineral yapıdadır.",
+      "Ama içinde canlı hücre yoktur. Bu yüzden kırılınca ya da çürüyünce kendini yenileyemez."
+    ]
+  },
+  {
+    "id": "bakteri-hucre",
+    "category": "Vücut",
+    "fact": "Vücudunuzdaki bakteri sayısı, kendi hücrelerinizin sayısıyla aşağı yukarı aynı.",
+    "detail": [
+      "Uzun süre bakterilerin insan hücrelerinden on kat fazla olduğu söylendi. 2016'daki daha ayrıntılı bir hesap, oranın yaklaşık bire bir olduğunu gösterdi.",
+      "Bu bakterilerin çoğu bağırsaklarda yaşar ve sindirime yardım eder."
+    ]
+  },
+
+  {
+    "id": "bambu-hizli",
+    "category": "Doğa",
+    "fact": "Bazı bambu türleri bir günde yaklaşık 90 santim uzayabilir.",
+    "detail": [
+      "Bambu, dünyanın en hızlı büyüyen bitkileri arasındadır.",
+      "Aslında bir ağaç değil, çimen ailesindendir."
+    ]
+  },
+  {
+    "id": "gokkusagi-daire",
+    "category": "Doğa",
+    "fact": "Gökkuşağı aslında tam bir dairedir.",
+    "detail": [
+      "Gökkuşağı, güneş ışığının su damlalarında kırılıp yansımasıyla oluşur ve bakan kişinin etrafında bir daire çizer.",
+      "Yerden baktığımızda dairenin alt kısmını yer engeller. Uçaktan bakarken bazen tam daireyi görmek mümkündür."
+    ]
+  },
+  {
+    "id": "kar-seffaf",
+    "category": "Doğa",
+    "fact": "Kar beyaz görünür ama buz kristalleri şeffaftır.",
+    "detail": [
+      "Kar taneleri çok sayıda küçük yüzeyi olan buz kristallerinden oluşur.",
+      "Işık bu yüzeylerde her yöne saçılır ve tüm renkler birlikte geri döner. Gözümüz bunu beyaz olarak algılar."
+    ]
+  },
+  {
+    "id": "methuselah-cam",
+    "category": "Doğa",
+    "fact": "Kaliforniya'daki bir çam ağacı yaklaşık 4.800 yaşında.",
+    "detail": [
+      "\"Methuselah\" adı verilen bu kılçıklı çam, bilinen en yaşlı tek ağaçlardan biri. Gize'deki Büyük Piramit yapılırken zaten filizlenmişti.",
+      "Ağaca zarar gelmesin diye tam yeri gizli tutuluyor."
+    ]
+  },
+  {
+    "id": "mantar-hayvan",
+    "category": "Doğa",
+    "fact": "Mantarlar bitkilerden çok hayvanlara yakın akrabadır.",
+    "detail": [
+      "Mantarlar fotosentez yapmaz, besinlerini dışarıdan alır.",
+      "Genetik çalışmalar, mantarların ve hayvanların ortak bir atadan geldiğini ve bitkilerden daha önce ayrıldığını gösteriyor."
+    ]
+  },
+  {
+    "id": "muz-dut-cilek",
+    "category": "Doğa",
+    "fact": "Botanik açısından muz bir \"üzümsü meyve\", çilek ise değil.",
+    "detail": [
+      "Botanikte üzümsü meyve, tek bir çiçeğin tek yumurtalığından gelişen ve tohumları etli kısmın içinde olan meyvedir. Muz, domates ve üzüm bu tanıma uyar.",
+      "Çilekte ise etli kısım çiçek tablasından gelişir, tohum gibi görünen noktaların her biri aslında ayrı bir küçük meyvedir."
+    ]
+  },
+
+  {
+    "id": "agri-dagi",
+    "category": "Dünya",
+    "fact": "Türkiye'nin en yüksek noktası Ağrı Dağı, yaklaşık 5.137 metre.",
+    "detail": [
+      "Ağrı Dağı, zirvesi yıl boyunca karla kaplı, sönmüş bir volkandır.",
+      "Hemen yanındaki Küçük Ağrı Dağı ile birlikte ovanın üstünde yalnız başına yükselir, bu yüzden çok uzaklardan görülebilir."
+    ]
+  },
+  {
+    "id": "van-golu-soda",
+    "category": "Dünya",
+    "fact": "Van Gölü, dünyanın en büyük sodalı gölüdür.",
+    "detail": [
+      "Suyu çok tuzlu ve bazik olduğu için içilemez, çoğu balık türü de bu suda yaşayamaz.",
+      "Ama inci kefali bu ortama uyum sağlamış. Her bahar yumurtlamak için göle dökülen tatlı su derelerine doğru göç eder."
+    ]
+  },
+  {
+    "id": "kanada-kiyi",
+    "category": "Dünya",
+    "fact": "Dünyanın en uzun kıyı şeridine Kanada sahip.",
+    "detail": [
+      "Kanada'nın kıyı şeridi, binlerce adası ile birlikte 200.000 kilometreyi aşıyor.",
+      "Bu, Dünya'nın Ekvator çevresinin yaklaşık altı katı."
+    ]
+  },
+  {
+    "id": "rusya-saat-dilimi",
+    "category": "Dünya",
+    "fact": "Rusya 11 farklı saat dilimine yayılıyor.",
+    "detail": [
+      "Kaliningrad'da öğle vakti olduğunda, ülkenin en doğusundaki Kamçatka'da gece olmuştur.",
+      "Kara yüzölçümü bakımından dünyanın açık ara en büyük ülkesidir."
+    ]
+  },
+  {
+    "id": "olu-deniz",
+    "category": "Dünya",
+    "fact": "Karadaki en alçak nokta deniz seviyesinin yaklaşık 430 metre altında.",
+    "detail": [
+      "Bu nokta Ölü Deniz'in kıyısı. Ölü Deniz'in suyu o kadar tuzlu ki insanlar suyun üstünde kolayca yüzebiliyor.",
+      "Su seviyesi her yıl yaklaşık bir metre düşüyor, bu yüzden en alçak noktanın derinliği de giderek artıyor."
+    ]
+  },
+  {
+    "id": "pasifik-kara",
+    "category": "Dünya",
+    "fact": "Pasifik Okyanusu, tüm karaların toplamından daha büyük.",
+    "detail": [
+      "Pasifik Dünya yüzeyinin yaklaşık üçte birini kaplar.",
+      "Bütün kıtaları yan yana koysanız bile Pasifik'in içine sığarlar ve yine de yer kalır."
+    ],
+    "source": "NOAA"
+  },
+  {
+    "id": "mariana-cukuru",
+    "category": "Dünya",
+    "fact": "Everest'i Mariana Çukuru'na koysanız zirvesi su altında kalırdı.",
+    "detail": [
+      "Mariana Çukuru'nun en derin noktası yaklaşık 11.000 metre. Everest ise yaklaşık 8.849 metre.",
+      "Zirvenin üstünde yine de 2 kilometreden fazla su kalırdı."
+    ],
+    "source": "NOAA"
+  },
+
+  {
+    "id": "kuran-114-sure",
+    "category": "Din",
+    "fact": "Kur'an-ı Kerim 114 sureden oluşur.",
+    "detail": [
+      "Surelerin uzunlukları çok farklıdır. En uzunu 286 ayetlik Bakara suresi, en kısası 3 ayetlik Kevser suresidir.",
+      "Ayet sayısı, ayetlerin nerede bölündüğüne dair farklı sayım geleneklerine göre biraz değişir. En yaygın sayıma göre 6.236 ayet vardır."
+    ]
+  },
+  {
+    "id": "ilk-vahiy-oku",
+    "category": "Din",
+    "fact": "Kur'an'ın inen ilk ayetleri \"Oku!\" emriyle başlar.",
+    "detail": [
+      "İslam inancına göre ilk vahiy, yaklaşık 610 yılında Mekke yakınlarındaki Hira mağarasında Hz. Muhammed'e geldi.",
+      "Bu ayetler Alak suresinin ilk beş ayetidir ve okumayı, yaratılışı ve kalemle öğretmeyi anlatır."
+    ]
+  },
+  {
+    "id": "hicri-takvim",
+    "category": "Din",
+    "fact": "Ramazan ayı her yıl yaklaşık 11 gün erken gelir.",
+    "detail": [
+      "Hicri takvim Ay'ın hareketlerine göre işler. Bir hicri yıl yaklaşık 354 ya da 355 gündür, yani güneş yılından yaklaşık 11 gün kısadır.",
+      "Bu yüzden Ramazan yaklaşık 33 yılda bütün mevsimleri dolaşır. Bir insan hayatı boyunca hem kışın hem yazın oruç tutar."
+    ]
+  },
+  {
+    "id": "hicret-622",
+    "category": "Din",
+    "fact": "Hicri takvimin başlangıcı 622 yılındaki hicrettir.",
+    "detail": [
+      "Hicret, Hz. Muhammed'in ve Müslümanların Mekke'den Medine'ye göç etmesidir.",
+      "Bu olayı takvimin başlangıcı yapma kararı, hicretten yaklaşık 17 yıl sonra, Halife Hz. Ömer döneminde alındı."
+    ]
+  },
+  {
+    "id": "ilk-kible-kudus",
+    "category": "Din",
+    "fact": "Müslümanların ilk kıblesi Kudüs'tü.",
+    "detail": [
+      "Kıble, Müslümanların namaz kılarken yöneldiği yöndür. Bugün bu yön Mekke'deki Kâbe'dir.",
+      "İlk yıllarda Müslümanlar namazda Kudüs'e, Mescid-i Aksa'ya yöneliyordu. Kıble, hicretten yaklaşık 16-17 ay sonra Kâbe'ye çevrildi."
+    ]
+  },
+  {
+    "id": "islamin-bes-sarti",
+    "category": "Din",
+    "fact": "İslam'ın beş şartı vardır: şehadet, namaz, oruç, zekât ve hac.",
+    "detail": [
+      "Şehadet, Allah'ın bir olduğuna ve Hz. Muhammed'in O'nun elçisi olduğuna tanıklık etmektir. Namaz günde beş vakit kılınır, oruç Ramazan ayında tutulur.",
+      "Zekât, belirli bir zenginlik ölçüsüne ulaşan kişinin malının bir kısmını ihtiyaç sahiplerine vermesidir. Hac ise gücü yeten Müslümanın ömründe bir kez Mekke'ye gitmesidir."
+    ]
+  },
+  {
+    "id": "harezmi-algoritma",
+    "category": "Din",
+    "fact": "\"Algoritma\" kelimesi Harezmî'nin adından gelir.",
+    "detail": [
+      "Muhammed bin Musa el-Harezmî 9. yüzyılda Bağdat'ta yaşamış bir matematikçi ve astronomdu. Adı Latinceye \"Algoritmi\" olarak geçti.",
+      "\"Cebir\" kelimesi de onun denklem çözmeyi anlatan kitabının adındaki \"el-cebr\" sözcüğünden gelir. Hint rakamlarının Avrupa'ya yayılmasında da eserleri etkili oldu."
+    ]
+  },
+  {
+    "id": "beytulhikme",
+    "category": "Din",
+    "fact": "Bağdat'taki Beytülhikme, Antik Yunan eserlerinin Arapçaya çevrildiği büyük bir ilim merkeziydi.",
+    "detail": [
+      "Abbasi halifeleri döneminde, özellikle 9. yüzyılda Halife Me'mûn zamanında en parlak dönemini yaşadı.",
+      "Burada Aristoteles, Öklid ve Galen gibi yazarların eserleri çevrildi ve geliştirildi. Bu çeviriler daha sonra Avrupa'ya da ulaştı."
+    ]
+  },
+  {
+    "id": "ibn-sina-kanun",
+    "category": "Din",
+    "fact": "İbn Sînâ'nın tıp kitabı Avrupa'da yüzyıllarca ders kitabı olarak okutuldu.",
+    "detail": [
+      "İbn Sînâ 980-1037 yılları arasında yaşadı. Hekim olmasının yanında felsefe, astronomi ve mantık üzerine de eserler yazdı.",
+      "El-Kânûn fi't-Tıb adlı eseri Latinceye çevrildi ve Avrupa üniversitelerinde 17. yüzyıla kadar temel tıp kitaplarından biri olarak kullanıldı."
+    ]
+  },
+  {
+    "id": "ibnul-heysem-optik",
+    "category": "Din",
+    "fact": "İbnü'l-Heysem, görmenin gözden çıkan ışınlarla değil, nesnelerden gelen ışıkla olduğunu gösterdi.",
+    "detail": [
+      "10. ve 11. yüzyılda yaşayan İbnü'l-Heysem, Kitâbü'l-Menâzır adlı optik kitabında ışığın davranışını deneylerle inceledi.",
+      "Fikirlerini gözlem ve deneyle sınaması nedeniyle bilimsel yöntemin öncülerinden biri sayılır. Karanlık oda (camera obscura) üzerine yaptığı çalışmalar da bilinir."
+    ]
+  },
+  {
+    "id": "cezeri-otomatlar",
+    "category": "Din",
+    "fact": "El-Cezerî 1206'da otomatik makineler üzerine resimli bir kitap yazdı.",
+    "detail": [
+      "Cizre'de doğan el-Cezerî, Diyarbakır'daki Artuklu sarayında mühendis olarak çalıştı.",
+      "Kitabında su saatleri, kendi kendine çalışan müzisyen figürleri ve ünlü fil saati gibi düzeneklerin nasıl yapılacağını ayrıntılı çizimlerle anlattı. Robotik tarihinin öncülerinden sayılır."
+    ]
+  },
+  {
+    "id": "biruni-dunya-yaricap",
+    "category": "Din",
+    "fact": "Bîrûnî, Dünya'nın yarıçapını bir dağın tepesinden yaptığı ölçümle hesapladı.",
+    "detail": [
+      "11. yüzyılda yaşayan Bîrûnî, dağın yüksekliğini ve tepeden ufka bakış açısını ölçerek trigonometriyle Dünya'nın yarıçapını buldu.",
+      "Bulduğu değer bugünkü ölçüme oldukça yakındır. Bîrûnî astronomi, coğrafya ve Hindistan tarihi üzerine de önemli eserler yazdı."
+    ]
+  },
+  {
+    "id": "fatima-fihri-karaviyyin",
+    "category": "Din",
+    "fact": "Hâlâ eğitim veren en eski kurumlardan biri, 859'da bir kadın tarafından kuruldu.",
+    "detail": [
+      "Fâtıma el-Fihrî, Fas'ın Fes şehrinde Karaviyyîn Camii'ni ve ona bağlı medreseyi kurdu.",
+      "Karaviyyîn, günümüzde de eğitim vermeye devam eden dünyanın en eski eğitim kurumlarından biri kabul edilir."
+    ]
+  },
+  {
+    "id": "ibn-battuta",
+    "category": "Din",
+    "fact": "İbn Battûta yaklaşık 30 yılda yaklaşık 120.000 kilometre yol gitti.",
+    "detail": [
+      "1304'te Fas'ın Tanca şehrinde doğan İbn Battûta, hacca gitmek için yola çıktı ve yıllarca dönmedi.",
+      "Kuzey Afrika'dan Anadolu'ya, Hindistan'dan Çin'e kadar pek çok yeri gezdi. Anlattıkları Rihle adlı kitapta toplandı ve dönemin dünyasına dair önemli bir kaynak oldu."
+    ]
+  },
+
+  {
+    "id": "hristiyanlik-teslis",
+    "category": "Din",
+    "fact": "Hristiyanların çoğu Tanrı'yı Baba, Oğul ve Kutsal Ruh olarak üç kişilikte tek Tanrı olarak görür.",
+    "detail": [
+      "Bu inanca Teslis denir. Bazı küçük Hristiyan grupları Teslis'i kabul etmez.",
+      "Hristiyanların kutsal kitabı Kitab-ı Mukaddes'tir. Eski Ahit ve Yeni Ahit'ten oluşur. Yeni Ahit, İsa'nın hayatını anlatan dört İncil'i de içerir."
+    ]
+  },
+  {
+    "id": "hristiyanlik-paskalya",
+    "category": "Din",
+    "fact": "Hristiyanlığın en önemli bayramı Paskalya'nın tarihi her yıl değişir.",
+    "detail": [
+      "Paskalya, Hristiyan inancına göre İsa'nın çarmıha gerildikten sonra dirilişini kutlar.",
+      "Batı kiliselerinde ilkbahar ekinoksundan sonraki ilk dolunayı izleyen pazar günü kutlanır. Ortodoks kiliseleri tarihi eski Jülyen takvimine göre hesapladığı için Paskalya'yı çoğu yıl farklı bir günde kutlar."
+    ]
+  },
+  {
+    "id": "hristiyanlik-ayin",
+    "category": "Din",
+    "fact": "Hristiyanlar genellikle pazar günü kilisede toplu ibadet eder.",
+    "detail": [
+      "Ayinin önemli bölümlerinden biri komünyondur. Ekmek ve şarap paylaşılarak İsa'nın havarileriyle yediği son akşam yemeği anılır.",
+      "Hristiyanlığa giriş ritüeli vaftizdir. Kiliseye göre kişinin başına su dökülür ya da kişi suya batırılır."
+    ]
+  },
+  {
+    "id": "yahudilik-sabat",
+    "category": "Din",
+    "fact": "Yahudilikte Şabat, cuma gün batımından cumartesi akşamına kadar süren dinlenme günüdür.",
+    "detail": [
+      "Şabat, gün batımından önce mumlar yakılarak ve dualar okunarak karşılanır.",
+      "Dindar Yahudiler bu süre içinde çalışmaz, ateş yakmak ve yolculuk etmek gibi işlerden kaçınır. Gün aileyle yemek, dua ve dinlenmeyle geçer."
+    ]
+  },
+  {
+    "id": "yahudilik-tora",
+    "category": "Din",
+    "fact": "Sinagoglarda Tora, elle yazılmış parşömen rulolardan okunur.",
+    "detail": [
+      "Tora, Yahudi kutsal kitabı Tanah'ın ilk beş kitabıdır ve Yahudiliğin temel metnidir.",
+      "Tora bir yıl boyunca haftalık bölümler hâlinde baştan sona okunur. Okumanın bitip yeniden başlaması Simhat Tora bayramıyla kutlanır."
+    ]
+  },
+  {
+    "id": "yahudilik-dua",
+    "category": "Din",
+    "fact": "Dindar Yahudiler günde üç vakit dua eder.",
+    "detail": [
+      "Sabah, öğleden sonra ve akşam duaları vardır. Dua ederken Kudüs'e doğru dönülür.",
+      "Bazı dualar ancak toplulukla okunabilir. Bunun için minyan denen en az on yetişkinden oluşan bir topluluk gerekir."
+    ]
+  },
+  {
+    "id": "yahudilik-koser",
+    "category": "Din",
+    "fact": "Yahudi beslenme kurallarına göre et ve süt ürünleri birlikte yenmez.",
+    "detail": [
+      "Bu kurallara uyan yiyeceklere koşer denir. Domuz eti ve kabuklu deniz ürünleri gibi bazı yiyecekler koşer değildir.",
+      "Kurallara sıkı uyan evlerde et ve süt ürünleri için ayrı tabak, tencere ve çatal bıçak bile kullanılır."
+    ]
+  },
+  {
+    "id": "hinduizm-samsara",
+    "category": "Din",
+    "fact": "Hinduizme göre ruh, ölümden sonra yeni bir bedende yeniden doğar.",
+    "detail": [
+      "Bu doğum ve ölüm döngüsüne samsara denir. Kişinin eylemleri, yani karması, sonraki yaşamlarını etkiler.",
+      "Hinduizmde en yüksek amaç bu döngüden kurtulmaktır. Bu kurtuluşa mokşa denir."
+    ]
+  },
+  {
+    "id": "hinduizm-puja",
+    "category": "Din",
+    "fact": "Hindular evlerinde ve tapınaklarda puja denen bir ibadetle tanrılara sunu yapar.",
+    "detail": [
+      "Puja sırasında tanrı heykeline ya da resmine çiçek, yiyecek, tütsü ve kandil ışığı sunulur.",
+      "Hinduizmde Brahma, Vişnu ve Şiva gibi pek çok tanrı biçimine tapılır. Birçok Hindu bunları tek yüce gerçekliğin, Brahman'ın, farklı yüzleri olarak görür."
+    ]
+  },
+  {
+    "id": "hinduizm-divali",
+    "category": "Din",
+    "fact": "Hinduların ışık bayramı Divali'de evler kandillerle aydınlatılır.",
+    "detail": [
+      "Divali, karanlığa karşı ışığın, kötülüğe karşı iyiliğin zaferini simgeler. Genellikle ekim ya da kasım ayına denk gelir.",
+      "Bayramda evler temizlenip süslenir, hediyeler ve tatlılar paylaşılır. Başka bazı dinlerin mensupları da aynı dönemde bayram kutlar."
+    ]
+  },
+  {
+    "id": "budizm-buda",
+    "category": "Din",
+    "fact": "\"Buda\" bir isim değil, \"uyanmış kişi\" anlamına gelen bir unvandır.",
+    "detail": [
+      "Budizmin kurucusu Siddhartha Gautama yaklaşık MÖ 5. yüzyılda, bugünkü Nepal ve Hindistan topraklarında yaşadı.",
+      "Anlatıya göre bir prens olarak doğdu, insanların neden acı çektiğini anlamak için sarayı bıraktı ve bir ağacın altında meditasyon yaparken aydınlandı."
+    ]
+  },
+  {
+    "id": "budizm-dort-gercek",
+    "category": "Din",
+    "fact": "Budizmin temelinde \"Dört Yüce Gerçek\" öğretisi vardır.",
+    "detail": [
+      "Bu öğretiye göre hayatta acı vardır, acının nedeni arzu ve bağlılıktır, acı sona erdirilebilir ve bunun yolu Sekiz Aşamalı Yol'dur.",
+      "Sekiz Aşamalı Yol doğru görüş, doğru konuşma ve doğru eylem gibi ilkelerden oluşur. Amaç acıdan tamamen kurtulmak, yani nirvanaya ulaşmaktır."
+    ]
+  },
+  {
+    "id": "budizm-meditasyon",
+    "category": "Din",
+    "fact": "Budizmde yaratıcı bir tanrıya inanç merkezde değildir; meditasyon önemli bir yer tutar.",
+    "detail": [
+      "Budistler zihni sakinleştirmek ve farkındalık geliştirmek için meditasyon yapar.",
+      "Tapınaklarda Buda heykellerinin önüne çiçek, mum ve tütsü bırakılır. Bazı Budistler dua ve meditasyonda genellikle 108 boncuklu bir tespih kullanır."
+    ]
+  },
+  {
+    "id": "sihizm-langar",
+    "category": "Din",
+    "fact": "Sih tapınaklarında din, dil ya da köken fark etmeksizin herkese ücretsiz yemek verilir.",
+    "detail": [
+      "Bu ortak mutfağa langar denir. Yemekler gönüllüler tarafından hazırlanır ve herkes yan yana yere oturarak yer. Bu, insanların eşitliğini simgeler.",
+      "Amritsar'daki Altın Tapınak'ta her gün on binlerce kişiye yemek verilir."
+    ]
+  },
+  {
+    "id": "sihizm-bes-k",
+    "category": "Din",
+    "fact": "Sihliğe katılan Sihler \"beş K\" denen beş simgeyi üzerlerinde taşır.",
+    "detail": [
+      "Bunlar kesilmemiş saç (kesh), tahta tarak (kangha), çelik bilezik (kara), küçük bir kılıç (kirpan) ve pamuklu iç giysidir (kachera). Sarık, kesilmeyen saçı örter.",
+      "Sihizm 15. yüzyılın sonunda Pencap bölgesinde Guru Nanak tarafından kuruldu ve tek bir Tanrı'ya inanır."
+    ]
+  },
+  {
+    "id": "sinto-torii",
+    "category": "Din",
+    "fact": "Japonya'daki Şinto tapınaklarının girişinde torii denen kapılar bulunur.",
+    "detail": [
+      "Şinto inancına göre dağlar, nehirler, ağaçlar gibi doğadaki pek çok varlıkta kami denen kutsal güçler bulunur. Torii, sıradan dünyadan kutsal alana geçişi gösterir.",
+      "Ziyaretçiler dua etmeden önce tapınak girişindeki çeşmede ellerini ve ağızlarını suyla arındırır."
+    ]
+  },
+  {
+    "id": "taoizm-tao",
+    "category": "Din",
+    "fact": "Taoizmin temel kitabı Tao Te Ching, Lao Tzu'ya atfedilir.",
+    "detail": [
+      "\"Tao\" kelimesi \"yol\" anlamına gelir. Taoizm, evrenin doğal akışıyla uyum içinde yaşamayı öğütler.",
+      "Önemli kavramlardan biri wu wei'dir, yani zorlamadan, doğal akışa karşı koymadan hareket etmek. Kitabın gerçekten tek bir yazarı olup olmadığı tartışmalıdır."
+    ]
+  },
+
+  {
+    "id": "oruc-sahur-iftar",
+    "category": "Din",
+    "fact": "Ramazan'da oruç tutan Müslümanlar tan yerinin ağarmasından gün batımına kadar yemez ve içmez.",
+    "detail": [
+      "Şafaktan önce yenen yemeğe sahur, gün batımında orucu açmak için yenen yemeğe iftar denir.",
+      "Hastalar, yolcular, hamile ve emziren kadınlar gibi oruç tutmakta zorlananlar oruç tutmayabilir. Bu kişiler tutamadıkları günleri daha sonra tutar ya da fidye verir."
+    ]
+  },
+  {
+    "id": "kadir-gecesi",
+    "category": "Din",
+    "fact": "Kur'an'ın indirilmeye başladığı gece Kadir Gecesi olarak anılır.",
+    "detail": [
+      "Kur'an'daki Kadir suresinde bu gecenin \"bin aydan daha hayırlı\" olduğu söylenir.",
+      "Gecenin tam tarihi kesin olarak bilinmez ve Ramazan'ın son on gecesi içinde aranır. Türkiye'de ve birçok ülkede 27. gece Kadir Gecesi olarak kutlanır."
+    ]
+  },
+  {
+    "id": "hac-tavaf",
+    "category": "Din",
+    "fact": "Hac sırasında Kâbe'nin çevresinde yedi kez dönülür; buna tavaf denir.",
+    "detail": [
+      "Hac, hicri takvimin son ayı olan Zilhicce'de yapılır ve her yıl dünyanın dört bir yanından milyonlarca Müslümanı Mekke'de buluşturur.",
+      "Haccın en önemli bölümlerinden biri, hacıların Arafat'ta bir gün boyunca dua ederek beklediği vakfedir. Hacılar zengin ya da yoksul, aynı sade beyaz kıyafeti, ihramı giyer."
+    ]
+  },
+  {
+    "id": "kurban-bayrami",
+    "category": "Din",
+    "fact": "Kurban Bayramı, Hz. İbrahim'in oğlunu kurban etmeye hazır olduğu anlatısını anar.",
+    "detail": [
+      "İslam inancına göre Allah, Hz. İbrahim'in teslimiyetini kabul etti ve oğlunun yerine kurban edilmesi için bir koç gönderdi.",
+      "Bayram haccın sonuna denk gelir. Kesilen kurbanın eti geleneksel olarak aile, akrabalar ve ihtiyaç sahipleri arasında paylaştırılır."
+    ]
+  },
+  {
+    "id": "zemzem",
+    "category": "Din",
+    "fact": "Mekke'deki Zemzem kuyusu binlerce yıldır kullanılıyor.",
+    "detail": [
+      "İslam geleneğine göre kuyu, Hz. Hacer susuz kalan oğlu İsmail için su ararken ortaya çıktı. Hacer'in Safa ile Merve tepeleri arasında koşması, hac ve umrede yedi kez yürünerek anılır.",
+      "Hacılar Zemzem suyunu içer ve memleketlerine götürür."
+    ]
+  },
+  {
+    "id": "cuma-namazi",
+    "category": "Din",
+    "fact": "Cuma günü öğle vaktinde camide toplu olarak kılınan namaza cuma namazı denir.",
+    "detail": [
+      "Namazdan önce imam cemaate hutbe denen bir konuşma yapar.",
+      "Cuma namazı, İslam fıkhında erkekler için farz kabul edilir. Haftanın en kalabalık cemaati genellikle cuma namazında toplanır."
+    ]
+  },
+  {
+    "id": "hafiz",
+    "category": "Din",
+    "fact": "Kur'an'ı baştan sona ezbere bilen kişiye hafız denir.",
+    "detail": [
+      "Standart baskıda yaklaşık 600 sayfa tutan Kur'an'ı ezberlemek genellikle birkaç yıl sürer.",
+      "Dünyada milyonlarca hafız olduğu tahmin edilir. Ezber geleneği, Kur'an'ın asırlar boyunca hem yazılı hem sözlü olarak aktarılmasını sağlamıştır."
+    ]
+  },
+  {
+    "id": "endonezya-musluman",
+    "category": "Din",
+    "fact": "Dünyada en çok Müslümanın yaşadığı ülke Endonezya'dır.",
+    "detail": [
+      "Müslümanların büyük çoğunluğu Arap değildir. Endonezya'yı Pakistan, Hindistan ve Bangladeş izler.",
+      "Kur'an Arapça indirildiği için namaz dünyanın her yerinde Arapça kılınır, ama Müslümanlar günlük hayatta yüzlerce farklı dil konuşur."
+    ]
+  },
+  {
+    "id": "ibnun-nefis",
+    "category": "Din",
+    "fact": "İbnü'n-Nefîs, kanın akciğerlerden geçerek dolaştığını Avrupa'dan yaklaşık 300 yıl önce tarif etti.",
+    "detail": [
+      "13. yüzyılda Şam'da doğan ve Kahire'de çalışan İbnü'n-Nefîs, kanın kalbin sağ tarafından akciğerlere gidip orada havayla karıştıktan sonra sol tarafa döndüğünü yazdı.",
+      "Bu \"küçük kan dolaşımı\" Avrupa'da ancak 16. yüzyılda yeniden tanımlandı."
+    ]
+  },
+  {
+    "id": "zehravi-cerrahi",
+    "category": "Din",
+    "fact": "Endülüslü hekim ez-Zehrâvî, kitabında 200'den fazla cerrahi aleti çizerek anlattı.",
+    "detail": [
+      "10. yüzyılda Kurtuba yakınlarında yaşayan ez-Zehrâvî, 30 bölümlük Kitâbü't-Tasrîf adlı tıp ansiklopedisini yazdı.",
+      "Kitabın cerrahi bölümü Latinceye çevrildi ve Avrupa'da yüzyıllar boyunca cerrahlar tarafından kullanıldı. Bu yüzden cerrahinin öncülerinden biri sayılır."
+    ]
+  },
+  {
+    "id": "kindi-sifre",
+    "category": "Din",
+    "fact": "Şifre çözmede kullanılan frekans analizinin bilinen ilk tarifini el-Kindî yazdı.",
+    "detail": [
+      "9. yüzyılda Bağdat'ta yaşayan el-Kindî, şifreli bir metinde harflerin ne sıklıkla geçtiğini sayarak şifrenin çözülebileceğini anlattı.",
+      "Bu yöntem kriptanalizin temel tekniklerinden biri oldu. El-Kindî felsefe, matematik ve müzik üzerine de çok sayıda eser yazdı."
+    ]
+  },
+  {
+    "id": "bagdat-kagit",
+    "category": "Din",
+    "fact": "8. yüzyılın sonunda Bağdat'ta kâğıt atölyeleri kuruldu.",
+    "detail": [
+      "Kâğıt Çin'de icat edilmişti. İslam dünyasında yayılmasıyla kitaplar parşömene göre çok daha ucuza üretilebilir hâle geldi.",
+      "Bu, Bağdat başta olmak üzere pek çok şehirde kütüphanelerin, kitapçıların ve çeviri faaliyetlerinin gelişmesine büyük katkı sağladı. Kâğıt, Avrupa'ya da büyük ölçüde İslam dünyası üzerinden ulaştı."
+    ]
+  },
+  {
+    "id": "hayyam-takvim",
+    "category": "Din",
+    "fact": "Ömer Hayyam, rubaileriyle tanınan bir şair olduğu kadar bir matematikçi ve astronomdu.",
+    "detail": [
+      "11. yüzyılda Selçuklu Sultanı Melikşah'ın isteğiyle bir takvim hazırlayan ekipte yer aldı. Celâlî takvimi denen bu takvim, yılın uzunluğunu çok hassas biçimde hesaba katıyordu.",
+      "Hayyam ayrıca üçüncü dereceden denklemlerin geometrik çözümleri üzerine önemli çalışmalar yaptı."
+    ]
+  },
+  {
+    "id": "bimaristan",
+    "category": "Din",
+    "fact": "Ortaçağ İslam şehirlerinde bimaristan denen büyük hastaneler vardı.",
+    "detail": [
+      "Bağdat, Şam ve Kahire gibi şehirlerdeki bu hastanelerin birçoğu vakıflarla finanse edilir ve hastaları ücretsiz tedavi ederdi.",
+      "Bazılarında farklı hastalıklar için ayrı bölümler, eczaneler ve hekim yetiştiren dersler bulunurdu."
+    ]
+  },
+  {
+    "id": "kurtuba-kutuphane",
+    "category": "Din",
+    "fact": "10. yüzyılda Endülüs'teki Kurtuba, Avrupa'nın en büyük şehirlerinden biriydi.",
+    "detail": [
+      "Kurtuba Emevîleri döneminde şehir; camileri, hamamları, aydınlatılmış sokakları ve kütüphaneleriyle ünlüydü.",
+      "Rivayete göre Halife II. Hakem'in kütüphanesinde yüz binlerce cilt kitap vardı. Kurtuba Ulu Camii bugün de ayaktadır."
+    ]
+  },
+  {
+    "id": "arap-rakamlari",
+    "category": "Din",
+    "fact": "Avrupa'da \"Arap rakamları\" denen rakamlar aslında Hindistan'da doğdu.",
+    "detail": [
+      "Sıfırı da içeren onluk basamak sistemi Hindistan'da gelişti, İslam dünyasındaki matematikçiler bu sistemi benimseyip geliştirdi.",
+      "Avrupa bu rakamları Arapça eserlerin çevirileri yoluyla tanıdığı için onlara \"Arap rakamları\" dedi. Roma rakamlarının yerini almaları yüzyıllar sürdü."
+    ]
+  },
+  {
+    "id": "kahve-yemen",
+    "category": "Din",
+    "fact": "Kahve içme alışkanlığı 15. yüzyılda Yemen'deki Sufilerle yayıldı.",
+    "detail": [
+      "Kahve içtiğine dair bilinen ilk güvenilir kayıtlar Yemen'deki Sufi tekkelerinden gelir. Dervişler gece ibadetlerinde uyanık kalmak için kahve içiyordu.",
+      "Kahve oradan Mekke'ye, Kahire'ye ve İstanbul'a yayıldı. İstanbul'da 16. yüzyılda açılan kahvehaneler kısa sürede sohbet ve buluşma yerleri oldu."
+    ]
+  }
+]

@@ -1,0 +1,52 @@
+{{- $f := .fact -}}
+<header class="top">
+  <button class="icon" id="btn-filter" type="button" aria-label="Kategori filtresi">{{ partial "icon.html" "filter" }}</button>
+  <a class="brand" href="/">{{ site.Title }}</a>
+  <nav class="tools" aria-label="Menü">
+    <a class="icon" href="/favoriler/" aria-label="Favoriler">{{ partial "icon.html" "heart" }}</a>
+    <a class="icon" href="/ayarlar/" aria-label="Ayarlar">{{ partial "icon.html" "gear" }}</a>
+  </nav>
+</header>
+
+<main class="stage" id="stage" data-first="{{ with $f }}{{ .id }}{{ end }}">
+  {{- with $f }}
+  <article class="card" data-c="0" data-depth="0"><div class="tags"><span class="cat">{{ .category }}</span></div><h1 class="fact">{{ .fact }}</h1></article>
+  {{- end }}
+</main>
+
+<button class="nav prev" id="prev" type="button" aria-label="Önceki bilgi">{{ partial "icon.html" "left" }}</button>
+<button class="nav next" id="next" type="button" aria-label="Sonraki bilgi">{{ partial "icon.html" "right" }}</button>
+<p class="hint">Sağa kaydır: sonraki · sola: önceki<br>Yukarı çek, detayı oku · iki kez dokun, beğen</p>
+<button class="install" id="btn-install" type="button" aria-label="Uygulamayı ana ekrana ekle" hidden>{{ partial "icon.html" "addapp" }}<span class="long">Ana ekrana ekle</span><span class="short" aria-hidden="true">Ekle</span></button>
+<p class="sr-only" id="live" aria-live="polite"></p>
+
+<section class="sheet" id="sheet" aria-labelledby="sheet-title" inert>
+  <div class="sheet-head"><button class="sheet-close" id="sheet-close" type="button" aria-label="Detayı kapat"><span></span></button></div>
+  <h2 class="sr-only" id="sheet-title">Detay</h2>
+  <div class="sheet-text" id="sheet-text">{{ with $f }}{{ range .detail }}<p>{{ . }}</p>{{ end }}{{ end }}</div>
+  <p class="src" id="sheet-src">{{ with $f }}{{ with .source }}Kaynak: {{ . }}{{ end }}{{ end }}</p>
+</section>
+
+<dialog class="filter" id="filter" aria-labelledby="filter-title">
+  <div class="dialog-head">
+    <h2 id="filter-title">Kategoriler</h2>
+    <button class="icon" type="button" id="filter-close" aria-label="Kapat">{{ partial "icon.html" "close" }}</button>
+  </div>
+  <div class="chips" id="chips"></div>
+  <button class="btn-primary" type="button" id="filter-apply">Göster</button>
+</dialog>
+
+<template id="card-tpl">
+  <article class="card">
+    <div class="tags"><span class="cat"></span><span class="badge" hidden>Günün bilgisi</span></div>
+    <h2 class="fact"></h2>
+    <div class="actions">
+      <button class="round like" type="button" aria-pressed="false" aria-label="Beğen ve favorilere ekle">{{ partial "icon.html" "heart" }}</button>
+      <button class="round share" type="button" aria-label="Bu bilgiyi paylaş">{{ partial "icon.html" "share" }}</button>
+      <button class="more" type="button" aria-label="Detayı aç">Detay{{ partial "icon.html" "up" }}</button>
+    </div>
+    <div class="burst" aria-hidden="true">{{ partial "icon.html" "heart" }}</div>
+  </article>
+</template>
+
+<noscript><p class="noscript">Kartlar için JavaScript gerekiyor.</p></noscript>

@@ -1,22 +1,13 @@
 {
   "name": "biliyor-muydun",
-  "version": "1.0.0",
-  "main": "index.ts",
-  "dependencies": {
-    "expo": "~58.0.25",
-    "expo-status-bar": "~58.0.5",
-    "react": "19.3.0",
-    "react-native": "0.88.1"
-  },
-  "devDependencies": {
-    "@types/react": "~19.3.0",
-    "typescript": "~6.0.3"
-  },
+  "private": true,
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
+    "check": "node scripts/check.mjs",
+    "test": "node --test scripts/lib.test.mjs",
+    "icons": "node scripts/icons.mjs",
+    "dev": "hugo server",
+    "build": "node scripts/check.mjs && hugo --minify",
+    "preview": "hugo --minify && python3 -m http.server 8080 -d public"
   },
-  "private": true
+  "type": "module"
 }

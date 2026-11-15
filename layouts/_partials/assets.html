@@ -1,0 +1,5 @@
+{{/* Built once per build (Hugo caches by name); used by baseof and sw.js. */}}
+{{ $css := resources.Get "css/main.css" | resources.ExecuteAsTemplate "css/main.css" site | minify | fingerprint }}
+{{ $js := resources.Get "js/app.js" | js.Build (dict "minify" true "format" "esm" "target" "es2020") | fingerprint }}
+{{ $facts := hugo.Data.facts | jsonify | resources.FromString "facts.json" | fingerprint }}
+{{ return dict "css" $css "js" $js "facts" $facts }}

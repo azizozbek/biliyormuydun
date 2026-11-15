@@ -1,0 +1,18 @@
+{{ define "main" }}
+<div class="page">
+  <header class="page-head">
+    <a class="icon" href="/" aria-label="Kartlara dön">{{ partial "icon.html" "left" }}</a>
+    <h1>{{ .Title }}</h1>
+    <span class="muted push" id="fav-count"></span>
+  </header>
+  <p class="empty" id="fav-empty" hidden>Henüz favorin yok. Bir karta iki kez dokun ya da kalbe bas.</p>
+  <ul class="fav-list" id="fav-list"></ul>
+</div>
+<template id="fav-tpl">
+  <li class="fav">
+    <span class="strip" aria-hidden="true"></span>
+    <a><span class="cat"></span><span class="txt"></span></a>
+    <button class="unlike" type="button" aria-label="Favorilerden çıkar">{{ partial "icon.html" "heart" }}</button>
+  </li>
+</template>
+{{ end }}

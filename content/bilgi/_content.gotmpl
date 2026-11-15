@@ -1,0 +1,9 @@
+{{/* One page per fact in data/facts.json → /bilgi/<id>/ */}}
+{{ range hugo.Data.facts }}
+  {{ $.AddPage (dict
+    "path" .id
+    "kind" "page"
+    "title" .fact
+    "params" (dict "description" (index .detail 0) "f" .)
+  ) }}
+{{ end }}
