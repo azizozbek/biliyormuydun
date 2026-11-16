@@ -282,6 +282,36 @@ function initDeck(allFacts) {
     if (hy != null && e.clientY - hy > 60) closeSheet();
     hy = null;
   };
+  // Swipe down anywhere on the panel closes it, but only from the top of its text,
+  // so scrolling back up inside a long text still scrolls. The panel follows the finger.
+  // Touch events (not pointer events): they keep firing while the browser scrolls.
+  let sy0 = null, sx0 = 0, pull = 0;
+  sheet.addEventListener("touchstart", (e) => {
+    if (sheet.scrollTop > 0 || e.touches.length > 1) return (sy0 = null);
+    sy0 = e.touches[0].clientY;
+    sx0 = e.touches[0].clientX;
+    pull = 0;
+  }, { passive: true });
+  sheet.addEventListener("touchmove", (e) => {
+    if (sy0 == null) return;
+    const dy = e.touches[0].clientY - sy0, dx = e.touches[0].clientX - sx0;
+    if (dy <= 0 || Math.abs(dx) > dy || sheet.scrollTop > 0) {
+      pull = 0;
+      sheet.style.transform = "";
+      return;
+    }
+    pull = dy;
+    sheet.style.transition = "none";
+    sheet.style.transform = `translateY(${dy}px)`;
+  }, { passive: true });
+  sheet.addEventListener("touchend", () => {
+    if (sy0 == null) return;
+    sheet.style.transition = "";
+    sheet.style.transform = "";
+    if (pull > 80) closeSheet();
+    sy0 = null;
+    pull = 0;
+  });
   $("#sheet-close").onclick = closeSheet;
   prevBtn.onclick = prev;
   nextBtn.onclick = () => fly(stage.lastElementChild, 1);

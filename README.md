@@ -12,7 +12,7 @@ Site [Hugo](https://gohugo.io/) ile üretilen statik bir PWA. Sunucu, veritaban�
 | --- | --- |
 | Kartı sağa kaydır, → tuşu ya da sağdaki ok | Sonraki bilgi |
 | Kartı sola kaydır, ← tuşu ya da soldaki ok | Önceki bilgi |
-| Kartı yukarı çek, "Detay" butonu ya da ↑ tuşu | Detay paneli açılır (kapatmak: tutamacı aşağı çek, ↓ ya da Esc) |
+| Kartı yukarı çek, "Detay" butonu ya da ↑ tuşu | Detay paneli açılır (kapatmak: paneli aşağı kaydır, ↓ ya da Esc) |
 | Karta iki kez dokun / tıkla ya da kalp butonu | Beğen, favorilere ekle (kalp butonu beğeniyi geri de alır) |
 | Paylaş butonu | Bilginin kalıcı linkini `/bilgi/<id>/` paylaşır (destek yoksa panoya kopyalar) |
 

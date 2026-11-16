@@ -1,3 +1,61 @@
-<!doctype html><html lang=tr><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Favoriler | Biliyor muydun?</title><meta name=description content="Beğendiğin bilgiler."><link rel=canonical href=https://bilgi.azizozbek.ch/favoriler/><meta property="og:site_name" content="Biliyor muydun?"><meta property="og:locale" content="tr_TR"><meta property="og:type" content="article"><meta property="og:title" content="Favoriler"><meta property="og:description" content="Beğendiğin bilgiler."><meta property="og:url" content="https://bilgi.azizozbek.ch/favoriler/"><meta property="og:image" content="https://bilgi.azizozbek.ch/img/icon-512.png"><meta name=twitter:card content="summary"><meta name=theme-color content="#faf7f2" media="(prefers-color-scheme: light)"><meta name=theme-color content="#121214" media="(prefers-color-scheme: dark)"><link rel=manifest href=/manifest.webmanifest><link rel=icon href=/img/icon.svg type=image/svg+xml><link rel=apple-touch-icon href=/img/apple-touch-icon.png><script>try{var s=JSON.parse(localStorage.getItem("bm:settings")||"{}");s.theme&&s.theme!=="system"&&(document.documentElement.dataset.theme=s.theme),s.size&&(document.documentElement.dataset.size=s.size)}catch{}</script><link rel=stylesheet href=/css/main.min.3a628398efa6a968d1512f55ca99071a62946c04e28d3e1556a4e62d9eaab503.css><meta name=facts content="/facts.7a065f7c68373acb8993c4a6ad21570ac1fb4ce3f3f55cba5b7e6eaa51cc3615.json"><script type=module src=/js/app.bf53e1884f73bd881e88c2097e2d1b209106db1c5386dd48d932225880621a08.js></script><script>"serviceWorker"in navigator&&addEventListener("load",function(){navigator.serviceWorker.register("/sw.js")})</script></head><body data-page=favoriler><p id=offline class=offline role=status hidden>Çevrimdışı · bilgiler cihazında</p><p id=toast class=toast role=status aria-live=polite></p><div class=page><header class=page-head><a class=icon href=/ aria-label="Kartlara dön"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg></a><h1>Favoriler</h1><span class="muted push" id=fav-count></span></header><p class=empty id=fav-empty hidden>Henüz favorin yok. Bir karta iki kez dokun ya da kalbe bas.</p><ul class=fav-list id=fav-list></ul></div><template id=fav-tpl><li class=fav><span class=strip aria-hidden=true></span>
-<a><span class=cat></span><span class=txt></span></a>
-<button class=unlike type=button aria-label="Favorilerden çıkar"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20s-7-4.4-7-10a4 4 0 017-2.6A4 4 0 0119 10c0 5.6-7 10-7 10z"/></svg></button></li></template><dialog class="filter ios-install" id=ios-install aria-labelledby=ios-install-title><div class=dialog-head><h2 id=ios-install-title>Ana ekrana ekle</h2></div><ol class=steps><li>Safari'de <strong>Paylaş</strong> düğmesine dokun <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15V4M8 8l4-4 4 4M5 13v6h14v-6"/></svg></li><li>Listede <strong>Ana Ekrana Ekle</strong>'yi seç <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="3"/><path d="M12 8v8M8 12h8"/></svg></li><li>Sağ üstteki <strong>Ekle</strong>'ye dokun.</li></ol><p class=muted>Sonra uygulamayı ana ekrandaki simgesinden açabilirsin, internetsiz de çalışır.</p><button class=btn-primary type=button id=ios-install-close>Tamam</button></dialog></body></html>
+<!doctype html>
+<html lang="tr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Favoriler | Biliyor muydun?</title>
+<meta name="description" content="Beğendiğin bilgiler.">
+<link rel="canonical" href="http://localhost:1313/favoriler/">
+<meta property="og:site_name" content="Biliyor muydun?">
+<meta property="og:locale" content="tr_TR">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Favoriler">
+<meta property="og:description" content="Beğendiğin bilgiler.">
+<meta property="og:url" content="http://localhost:1313/favoriler/">
+<meta property="og:image" content="http://localhost:1313/img/icon-512.png">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#faf7f2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121214" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="icon" href="/img/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+<script>try{var s=JSON.parse(localStorage.getItem("bm:settings")||"{}");if(s.theme&&s.theme!=="system")document.documentElement.dataset.theme=s.theme;if(s.size)document.documentElement.dataset.size=s.size}catch(e){}</script>
+<link rel="stylesheet" href="/css/main.min.7638284a71e5ca96e563c76b65b7553e074b98baff05c506c4f8344105d1b20a.css">
+<meta name="facts" content="/facts.7a065f7c68373acb8993c4a6ad21570ac1fb4ce3f3f55cba5b7e6eaa51cc3615.json">
+<script type="module" src="/js/app.697f7495698803fa26f471bbeac8d339a38594d4d8d993acbd5287425a711cc6.js"></script>
+</head>
+<body data-page="favoriler">
+<p id="offline" class="offline" role="status" hidden>Çevrimdışı · bilgiler cihazında</p>
+<p id="toast" class="toast" role="status" aria-live="polite"></p>
+
+<div class="page">
+  <header class="page-head">
+    <a class="icon" href="/" aria-label="Kartlara dön"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg></a>
+    <h1>Favoriler</h1>
+    <span class="muted push" id="fav-count"></span>
+  </header>
+  <p class="empty" id="fav-empty" hidden>Henüz favorin yok. Bir karta iki kez dokun ya da kalbe bas.</p>
+  <ul class="fav-list" id="fav-list"></ul>
+</div>
+<template id="fav-tpl">
+  <li class="fav">
+    <span class="strip" aria-hidden="true"></span>
+    <a><span class="cat"></span><span class="txt"></span></a>
+    <button class="unlike" type="button" aria-label="Favorilerden çıkar"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg></button>
+  </li>
+</template>
+
+<dialog class="filter ios-install" id="ios-install" aria-labelledby="ios-install-title">
+  <div class="dialog-head">
+    <h2 id="ios-install-title">Ana ekrana ekle</h2>
+  </div>
+  <ol class="steps">
+    <li>Safari'de <strong>Paylaş</strong> düğmesine dokun <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15V4M8 8l4-4 4 4M5 13v6h14v-6"/></svg></li>
+    <li>Listede <strong>Ana Ekrana Ekle</strong>'yi seç <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="3"/><path d="M12 8v8M8 12h8"/></svg></li>
+    <li>Sağ üstteki <strong>Ekle</strong>'ye dokun.</li>
+  </ol>
+  <p class="muted">Sonra uygulamayı ana ekrandaki simgesinden açabilirsin, internetsiz de çalışır.</p>
+  <button class="btn-primary" type="button" id="ios-install-close">Tamam</button>
+</dialog>
+</body>
+</html>
