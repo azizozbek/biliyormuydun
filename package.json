@@ -5,7 +5,7 @@
     "check": "node scripts/check.mjs",
     "test": "node --test scripts/lib.test.mjs",
     "icons": "node scripts/icons.mjs",
-    "dev": "hugo server",
+    "dev": "hugo server --renderToMemory",
     "build": "node scripts/check.mjs && (set -a; [ -f .env ] && . ./.env; set +a; hugo --minify --cleanDestinationDir)",
     "preview": "(set -a; [ -f .env ] && . ./.env; set +a; hugo --minify --cleanDestinationDir) && python3 -m http.server 8080 -d public"
   },

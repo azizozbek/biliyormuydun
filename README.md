@@ -49,10 +49,10 @@ Site [Hugo](https://gohugo.io/) ile üretilen statik bir PWA. Sunucu, veritaban�
 ## Çalıştırma
 
 ```bash
-npm run dev          # hugo server → http://localhost:1313 (dosya değişince sayfa yenilenir)
+npm run dev          # hugo server --renderToMemory → http://localhost:1313 (dosya değişince sayfa yenilenir)
 ```
 
-Geliştirme sırasında önbellek karışmasın diye `hugo server` modunda (development ortamı) service worker kaydedilmez. Daha önce build edilmiş siteyi aynı adreste açtıysan, kalan service worker'ı DevTools → Application → Service workers → Unregister ile kaldır. Çevrimdışı çalışmayı denemek için sitenin build edilmiş hâlini kullan:
+Geliştirme sunucusunu çıplak `hugo server` ile değil `npm run dev` ile başlat: `hugo server` geliştirme build'ini `public/` klasörüne yazar ve repoya localhost adresli sayfalar girer. `--renderToMemory` bunu engeller. Geliştirme sırasında önbellek karışmasın diye `hugo server` modunda (development ortamı) service worker kaydedilmez. Daha önce build edilmiş siteyi aynı adreste açtıysan, kalan service worker'ı DevTools → Application → Service workers → Unregister ile kaldır. Çevrimdışı çalışmayı denemek için sitenin build edilmiş hâlini kullan:
 
 ```bash
 npm run preview      # hugo --minify + statik sunucu → http://localhost:8080
