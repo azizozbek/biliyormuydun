@@ -73,12 +73,12 @@ Bilgi eklerken `data/facts.json`'a yeni bir nesne ekle, `id` küçük harf ve ti
 
 1. **Alan adı:** Siteyi yayınlayacağın alan adını ya da klasörü hosting panelinde hazırla ve sitenin dosyalarının gideceği klasörü (document root) not et.
 2. **HTTPS:** Alan adı için SSL'i aç (çoğu panelde AutoSSL ya da Let's Encrypt). Service worker, yani çevrimdışı çalışma, yalnızca HTTPS'te çalışır.
-3. **Site adresi:** `.env.example` dosyasını `.env` olarak kopyala ve `HUGO_BASEURL` değerini kendi adresin yap (örneğin `https://example.com/`). `npm run build` bu değeri okur ve `hugo.toml` içindeki `baseURL`'ün yerine kullanır. Canonical, og etiketleri ve sitemap bu değeri kullanır. `.env` git'e eklenmez. Node olmadan build alıyorsan: `HUGO_BASEURL=https://example.com/ hugo --minify`.
+3. **Site adresi:** `.env.example` dosyasını `.env` olarak kopyala ve `HUGO_BASEURL` değerini kendi adresin yap (örneğin `https://example.com/`). `npm run build` bu değeri okur ve `hugo.toml` içindeki `baseURL`'ün yerine kullanır. Canonical, og etiketleri ve sitemap bu değeri kullanır. `.env` git'e eklenmez. Node olmadan build alıyorsan: `HUGO_BASEURL=https://example.com/ hugo --minify --cleanDestinationDir`.
 4. **Build (kendi bilgisayarında):**
    ```bash
    npm run build        # kontrol + hugo --minify
    ```
-   Node kurulu değilse yalnızca `hugo --minify` de aynı `public/` klasörünü üretir, ama kontrol çalışmaz.
+   Node kurulu değilse yalnızca `hugo --minify --cleanDestinationDir` de aynı `public/` klasörünü üretir, ama kontrol çalışmaz.
 5. **Yükleme:** `public/` klasörünün *içindekileri* document root'a yükle: panelin dosya yöneticisiyle, FTP/SFTP ile ya da SSH varsa rsync ile. `.htaccess` gizli bir dosya, FTP programında gizli dosyaları göstermeyi aç.
    ```bash
    rsync -avz --delete public/ kullanici@sunucu:~/public_html/
